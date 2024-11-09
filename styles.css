@@ -1,0 +1,333 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 60px;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navlinks li .under {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.navicon a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navicon .colour {
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+.part1 .green {
+    font-size: 15px;
+    color: green;
+    text-decoration: none;
+    background: none;
+    padding: 0%;
+}
+
+.part1 h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.part1 p {
+    color: white;
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.part1 a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.part2 img {
+    height: 400px;
+    width: 400px;
+}
+
+.options {
+    background-image: url(section\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bet {
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.bet h3 {
+    font-size: 30px;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.tab {
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.tab img {
+    height: 90px;
+    width: 90px;
+}
+
+.tab a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.tab p {
+    font-size: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.end {
+    color: white;
+    width: 300px;
+}
+
+
+.end input {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-color: green;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+
+.endlink h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.endlink li {
+    list-style: none;
+}
+
+.endlink li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.endlist li {
+    list-style: none;
+}
+
+.endlist h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.endlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+.endicon {
+    color: white;
+}
+
+.endicon h5 {
+    font-size: 20px;
+}
+
+.endlink li a:hover {
+    transition: 0.5s;
+    color: green;
+}
+
+.endlist li a:hover {
+    transition: 0.5s;
+    color: green;
+}
+
+.copywrite {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+
+@media (max-width: 760px) {
+    body {
+        width: 100%;
+        align-items: center;
+    }
+    
+    
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navlinks {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+    }
+
+    .navlinks li .under {
+        background: none;
+    }
+
+    .navicon {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 30px;
+        color: white;
+        background: none;
+        border: 1px solid white;
+        flex-direction: column;
+        align-self: last baseline;
+        cursor: pointer;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .part1 {
+        text-align: center;
+    }
+
+    .part1 h1 {
+        font-size: 40px;
+    }
+
+    .part1 p {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .part2 img {
+        width: 220px;
+        height: 220px;
+        margin: 22px;
+    }
+
+    .options {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .copywrite {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copywrite p {
+        font-size: 10px;
+    }
+
+    /* CSS for the active menu on mobile */
+.navlinks.active,
+.navicon.active {
+    display: flex;
+}
+
+}
+

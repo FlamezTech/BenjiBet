@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenjiBet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">BenjiBet</a>
+            </div>
+            <button class="hamburger-menu" onclick="toogle-menu()">&#9776</button>
+            <ul class="navlinks">
+                <li><a href="#" class="under">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="navicon">
+                <a href="#">1 800 500 000</a>
+                <a href="#" class="colour">Lets Talk</a>
+            </div>
+        </nav>
+    </header>
+    <section class="second">
+        <div class="part1">
+            <a href="#" class="green">Bonus</a>
+            <h1>Best Betting Affiliate Programs for Everyone</h1>
+            <p>Make Clean money and have high chances of winning with BenjiBet. We're the number one betting Platform in Nigeria</p><br><br><br>
+            <a href="#">Bet Now!</a>
+        </div>
+        <div class="part2">
+            <img src="backend.png" alt="">
+        </div>
+    </section>
+    <section class="options">
+        <div class="bet">
+            <p>Welcome</p>
+            <h3>The Best Betting Experience</h3>
+        </div>
+        <div class="table">
+            <div class="tab">
+                <img src="sports.png" alt="">
+                <h3>Sports Betting</h3>
+                <p>Include popular sports like football, basketball, tennis, and cricket, with live odds, betting options, and upcoming matches.</p><br><br><br>
+                <a href="#">...</a>
+            </div>
+            <div class="tab">
+                <img src="Casino.png" alt="">
+                <h3>Casino Games</h3>
+                <p>Offer a selection of virtual casino games like slots, poker, blackjack, and roulette for users who enjoy classic casino games alongside sports betting.</p><br><br><br>
+                <a href="#">...</a>
+            </div>
+            <div class="tab">
+                <img src="virtual games.png" alt="">
+                <h3>Virtual Sports</h3>
+                <p>For 24/7 betting availability, add virtual sports like horse racing, football, and basketball, which use computer simulations and offer quick, frequent betting rounds.</p><br><br><br>
+                <a href="#">...</a>
+            </div>
+            <div class="tab">
+                <img src="live-betting.png" alt="">
+                <h3>Live-Betting</h3>
+                <p>Enable live or "in-play" betting for ongoing events, allowing users to place bets as the match progresses with odds that update in real-time.</p><br><br><br>
+                <a href="#">...</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="end">
+            <h2>Be Future Ready</h2>
+            <p>Need Support for website Designs and all drop your email to FlamezTech Nigeria</p>
+            <input type="email" placeholder="Input-Email">
+        </div>
+        <ul class="endlink">
+            <h4>Links</h4>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Responsible Gaming</a></li>
+        </ul>
+        <ul class="endlist">
+            <h4>Lisence and Registration</h4>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+        <div class="endicon">
+            <h5>Contact Us</h5>
+            <p>08058586759</p>
+            <p>njokusamuel2005@gmail.com</p>
+        </div>
+    </footer>
+    <div class="copywrite">
+        <p>&copy; Copyright Designed by FlamezTech Nigeria 2024</p>
+    </div>
+    <script>
+        // Function to toggle the display of the nav menu
+        function toggleMenu() {
+            const navLinks = document.querySelector('.navlinks');
+            const navIcon = document.querySelector('.navicon');
+            
+            // Toggle the 'active' class to show or hide nav links
+            navLinks.classList.toggle('active');
+            navIcon.classList.toggle('active');
+        }
+    
+        // Add the toggle function to the hamburger menu button
+        document.querySelector('.hamburger-menu').addEventListener('click', toggleMenu);
+    </script>
+    
+</body>
+</html>
